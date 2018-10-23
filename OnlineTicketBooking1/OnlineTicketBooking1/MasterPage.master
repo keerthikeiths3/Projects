@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body background="back/website-background-rough-surface.jpg"> 
+    <form id="form1" runat="server">
+    <div>
+                    <p id="head" style="background-color: #000000">
+                <asp:Image ID="Image1" runat="server" Height="275px" 
+                    ImageUrl="~/movie-theater.jpg" Width="1289px" />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label1" runat="server" 
+                    style="font-weight: 700; font-size: xx-large; font-family: 'Times New Roman', Times, serif; color: #FFFFFF" 
+                    Text="ONLINE TICKET BOOKING"></asp:Label>
+            </p>
+
+        <hr width="100%" align="left" size="2"/> 
+            <table> 
+            <tr>
+            <td style="white-space:nowrap;">   
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Back/Home.png" PostBackUrl="~/Home.aspx" /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td>
+<td style="white-space:nowrap;">   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/Back/about_us.png" 
+        PostBackUrl="~/AboutUs.aspx" /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td>
+<td style="white-space:nowrap;">   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/Back/login.png" PostBackUrl="~/Login1.aspx" /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td>
+<td style="white-space:nowrap;">   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="~/Back/sign_up.png" PostBackUrl="~/Registration1.aspx" /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td>
+<td style="white-space:nowrap;">   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<asp:ImageButton ID="ImageButton6" runat="server" ImageUrl="~/back/logout.png" 
+        PostBackUrl="~/Home.aspx" onclick="ImageButton6_Click" /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td>
+<td style="white-space:nowrap;">   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<asp:ImageButton ID="ImageButton5" runat="server" ImageUrl="~/back/adminlogin.png" 
+        PostBackUrl="~/AdminLogin.aspx" Visible="False" /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td>
+
+     
+            </tr>
+            </table>
+        <hr width="100%" align="left" size="2"/> 
+
+                <%--<p style="border-top-style: groove; border-bottom-style: groove;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            &nbsp;<strong><asp:HyperLink ID="hypHome" runat="server" CssClass="style1">HOME</asp:HyperLink>
+            </strong><span class="style1"><strong id="Menu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </strong></span><strong>
+            <asp:HyperLink ID="hypAboutUs" runat="server" CssClass="style1">ABOUT US</asp:HyperLink>
+            </strong><span class="style1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </strong></span><strong>
+            <asp:HyperLink ID="hypLogin" runat="server" CssClass="style1" 
+                NavigateUrl="~/Login1.aspx">LOGIN</asp:HyperLink>
+            </strong><span class="style1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </strong></span><strong>
+            <asp:HyperLink ID="hypSignUp" runat="server" CssClass="style1" 
+                NavigateUrl="~/Registration1.aspx">SIGN UP</asp:HyperLink>
+            </strong>
+        </p> --%>
+
+            </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+        </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

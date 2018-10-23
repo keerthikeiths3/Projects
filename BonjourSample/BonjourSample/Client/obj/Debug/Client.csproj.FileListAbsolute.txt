@@ -1,0 +1,9 @@
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\bin\Debug\Client.exe.config
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\bin\Debug\Client.exe
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\bin\Debug\Client.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\bin\Debug\System.Net.Http.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\obj\Debug\Client.Client.resources
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\obj\Debug\Client.exe
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\BonjourSample\Client\obj\Debug\Client.pdb

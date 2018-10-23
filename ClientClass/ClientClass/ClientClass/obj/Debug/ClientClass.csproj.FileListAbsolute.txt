@@ -1,0 +1,6 @@
+c:\users\karthik\documents\visual studio 2013\Projects\ClientClass\ClientClass\bin\Debug\ClientClass.exe.config
+C:\Users\Karthik\Documents\Visual Studio 2013\Projects\ClientClass\ClientClass\bin\Debug\ClientClass.exe
+C:\Users\Karthik\Documents\Visual Studio 2013\Projects\ClientClass\ClientClass\bin\Debug\ClientClass.pdb
+C:\Users\Karthik\Documents\Visual Studio 2013\Projects\ClientClass\ClientClass\obj\Debug\ClientClass.exe
+C:\Users\Karthik\Documents\Visual Studio 2013\Projects\ClientClass\ClientClass\obj\Debug\ClientClass.pdb
+C:\Users\Karthik\Documents\Visual Studio 2013\Projects\ClientClass\ClientClass\obj\Debug\ClientClass.csprojResolveAssemblyReference.cache

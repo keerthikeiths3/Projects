@@ -1,0 +1,13 @@
+Things to do:
+1. The Date selected  ** YET   ** SELECT CONVERT(VARCHAR(10),GETDATE(),111);
+2.Connection Strings  ** DONE
+3.Home.aspx           ** Upcoming added, Now playing yet to add
+4.MoviesInfo.aspx	  ** YET
+5.GUI of other pages  ** Master page changed
+
+Webpages to be ignored
+
+
+Admin.aspx
+AdminMovieOp.aspx
+AdminUserOp.aspx
